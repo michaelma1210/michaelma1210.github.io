@@ -56,6 +56,12 @@ body {
     margin-bottom: 10px;
 }
 
+.video-date {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #A2AEBB;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
 .video-description {
     font-family: 'Josefin Sans', sans-serif;
     color: #A2AEBB;

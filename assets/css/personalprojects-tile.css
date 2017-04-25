@@ -11,9 +11,9 @@ body {
 }
 
 /* <--------------- TOP BANNER ------------------> */
-#banner-localwise {
+#banner-biddle {
     position: relative;
-    background-image: url('../../assets/img/inthefield/midsize/localwise.jpg');
+    background-image: url('../../assets/img/personalprojects/midsize/biddle.jpg');
 
     width: 100%;
     height: 300px;
@@ -25,9 +25,9 @@ body {
     padding:0;
 }
 
-#banner-wellsfargo {
+#banner-freeandforsale {
     position: relative;
-    background-image: url('../../assets/img/inthefield/midsize/wellsfargo.jpg');
+    background-image: url('../../assets/img/personalprojects/midsize/freeandforsale.jpg');
 
     width: 100%;
     height: 300px;
@@ -39,9 +39,9 @@ body {
     padding:0;
 }
 
-#banner-ucbhr {
+#banner-texteditor {
     position: relative;
-    background-image: url('../../assets/img/inthefield/midsize/ucbhr.jpg');
+    background-image: url('../../assets/img/personalprojects/midsize/texteditor.jpg');
 
     width: 100%;
     height: 300px;
@@ -53,9 +53,9 @@ body {
     padding:0;
 }
 
-#banner-stc {
+#banner-bearmaps {
     position: relative;
-    background-image: url('../../assets/img/inthefield/midsize/stc.jpg');
+    background-image: url('../../assets/img/personalprojects/midsize/bearmaps.jpg');
 
     width: 100%;
     height: 300px;
@@ -67,9 +67,9 @@ body {
     padding:0;
 }
 
-#banner-rescomp {
+#banner-database {
     position: relative;
-    background-image: url('../../assets/img/inthefield/midsize/rescomp.jpg');
+    background-image: url('../../assets/img/personalprojects/midsize/database.jpg');
 
     width: 100%;
     height: 300px;
@@ -81,51 +81,9 @@ body {
     padding:0;
 }
 
-#banner-dailycal {
+#banner-flickr {
     position: relative;
-    background-image: url('../../assets/img/inthefield/midsize/dailycal.jpg');
-
-    width: 100%;
-    height: 300px;
-    background-size: cover; /* or contain depending on what you want */
-    background-position: center center;
-    background-repeat: no-repeat;
-    text-align:center;
-    margin-bottom: 30px;
-    padding:0;
-}
-
-#banner-asuc {
-    position: relative;
-    background-image: url('../../assets/img/inthefield/midsize/asuc.jpg');
-
-    width: 100%;
-    height: 300px;
-    background-size: cover; /* or contain depending on what you want */
-    background-position: center center;
-    background-repeat: no-repeat;
-    text-align:center;
-    margin-bottom: 30px;
-    padding:0;
-}
-
-#banner-kaiser {
-    position: relative;
-    background-image: url('../../assets/img/inthefield/midsize/kaiser.jpg');
-
-    width: 100%;
-    height: 300px;
-    background-size: cover; /* or contain depending on what you want */
-    background-position: center center;
-    background-repeat: no-repeat;
-    text-align:center;
-    margin-bottom: 30px;
-    padding:0;
-}
-
-#banner-mvz {
-    position: relative;
-    background-image: url('../../assets/img/inthefield/midsize/mvz.jpg');
+    background-image: url('../../assets/img/personalprojects/midsize/flickr.jpg');
 
     width: 100%;
     height: 300px;
@@ -187,12 +145,12 @@ li.job-bullet {
 }
 
 
-#company {
+#project-title {
     font-size: 60px;
     color: #A2AEBB;
 }
 
-#job-role {
+#project-description {
     color: #A2AEBB;
     text-transform: uppercase;
     margin-top: 10px;
