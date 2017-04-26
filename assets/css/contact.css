@@ -50,6 +50,7 @@ a {
   margin: 30px;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 30px;
+  color: #071013;
 }
 
 
@@ -64,7 +65,7 @@ a {
 /*}*/
 
 body {
-  background: #ddd;
+  background: #DFE0E2;
 }
 
 .wrapper {
