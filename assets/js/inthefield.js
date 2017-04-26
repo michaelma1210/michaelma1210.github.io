@@ -40,24 +40,16 @@ $(document).ready(function(){
     });
 
 
+    var solidifyPos = $(".img_1-1").offset().top;
 
-    // // Question 4
-    // // IMPLEMENT "SHOW MODAL" WHEN "CLICK ON LOGIN BUTTON FROM MAIN PAGE" HERE
-    // $("#link").click(function() {
-    //     $("#modal-container").show();
-    // });
-    // // IMPLEMENT "HIDE MODAL" WHEN "CLICK ON SUBMIT BUTTON FROM MODAL BOX" HERE
-    // $("#submit").click(function() {
-    //     $("#modal-container").hide();
-    // });
-    // // IMPLEMENT "HIDE MODAL" WHEN "CLICK ON CANCEL BUTTON FROM MODAL BOX" HERE
-    // $("#cancel").click(function() {
-    //     $("#modal-container").hide();
-    // });
-    //
-    // // Question 5
-    // // IMPLEMENT "HIDE MODAL" WHEN "CLICK ON MODAL OVERLAY" HERE
-    // $("#modal-overlay").click(function() {
-    //     $("#modal-container").hide();
-    // });
+    $(window).scroll(function() {
+
+        var currentScroll = $(window).scrollTop();
+
+        if (currentScroll < solidifyPos) {
+            $("#topnavbar").css("opacity", ".65");
+        } else {
+            $("#topnavbar").css("opacity", ".85");
+        }
+    });
 });

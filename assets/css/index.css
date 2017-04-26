@@ -301,4 +301,7 @@ li.dropdown > a:after{
     color: lightseagreen;
 }
 
-
+.solidifyNavBar {
+    opacity: 2.0;
+    color: red;
+}

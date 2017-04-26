@@ -6,6 +6,8 @@
  */
 $(document).ready(function(){
 
+
+
     $("#bannerimage1").hover(function() {
         $(this).children('.bannertext').addClass("grow");
     });
@@ -21,6 +23,19 @@ $(document).ready(function(){
         $(this).children('.bannertext').addClass("grow");
     });
 
+    var solidifyPos = $("#bannerimage1").offset().top;
+
+    $(window).scroll(function() {
+
+        var currentScroll = $(window).scrollTop();
+
+        if (currentScroll < solidifyPos) {
+            $("#topnavbar").css("opacity", ".65");
+        } else {
+
+            $("#topnavbar").css("opacity", ".85");
+        }
+    });
 
 });
 
