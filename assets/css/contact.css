@@ -1,7 +1,11 @@
-
+@import url('http://weloveiconfonts.com/api/?family=entypo');
 
 body {
   margin: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 
