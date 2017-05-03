@@ -3,44 +3,44 @@
  */
 $(document).ready(function(){
 
-    $(".img_1-1").hover(function() {
+    $(".square-1").hover(function() {
         $(this).children('.bannertext').addClass("grow");
     });
 
-    $(".img_1-2").hover(function() {
+    $(".square-2").hover(function() {
         $(this).children('.bannertext').addClass("grow");
     });
 
-    $(".img_1-3").hover(function() {
+    $(".square-3").hover(function() {
         $(this).children('.bannertext').addClass("grow");
     });
 
-    $(".img_2-1").hover(function() {
+    $(".square-4").hover(function() {
         $(this).children('.bannertext').addClass("grow");
     });
 
-    $(".img_2-2").hover(function() {
+    $(".square-5").hover(function() {
         $(this).children('.bannertext').addClass("grow");
     });
 
-    $(".img_2-3").hover(function() {
+    $(".square-6").hover(function() {
         $(this).children('.bannertext').addClass("grow");
     });
 
-    $(".img_3-1").hover(function() {
+    $(".square-7").hover(function() {
         $(this).children('.bannertext').addClass("grow");
     });
 
-    $(".img_3-2").hover(function() {
+    $(".square-8").hover(function() {
         $(this).children('.bannertext').addClass("grow");
     });
 
-    $(".img_3-3").hover(function() {
+    $(".square-9").hover(function() {
         $(this).children('.bannertext').addClass("grow");
     });
 
 
-    var solidifyPos = $(".img_1-1").offset().top;
+    var solidifyPos = $(".square-1").offset().top;
 
     $(window).scroll(function() {
 

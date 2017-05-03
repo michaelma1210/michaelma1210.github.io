@@ -199,6 +199,8 @@ ul#tools-description {
 
 
 /* <--------------- BUTTON ------------------> */
+/* <---------------BUTTON CREDIT: http://codepen.io/sazzad/pen/yNNNJG ------------------> */
+
 a.animated-button {
     width: 30%;
     float: left;
@@ -266,8 +268,6 @@ a.animated-button:link, a.animated-button:visited {
     transition: all 1s ease;
 
 }
-
-/* Victoria Buttons */
 
 a.animated-button.victoria-four {
 

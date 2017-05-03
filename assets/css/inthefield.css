@@ -41,48 +41,46 @@ body {
     float:left;
     position: relative;
     width: 30%;
-    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
-    margin:1%;
-    background-position:center center;
+    padding-bottom: 30%;
+    margin: 1%;
+    background-size:cover;
     background-repeat:no-repeat;
-    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
-    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    background-position:center center;
     border-radius: 2%;
-
 }
 
-.img_1-1{
+.square-1 {
     background-image:url('../../assets/img/inthefield/wellsfargo.jpg');
     margin-left: 2.75%;
 }
-.img_1-2{
+.square-2 {
     background-image:url('../../assets/img/inthefield/localwise.jpg');
 }
-.img_1-3{
+.square-3 {
     background-image:url('../../assets/img/inthefield/hr.jpg');
 }
 
-.img_2-1{
+.square-4 {
     background-image:url('../../assets/img/inthefield/stc.jpg');
     margin-left: 2.75%;
 
 }
-.img_2-2{
+.square-5 {
     background-image:url('../../assets/img/inthefield/rescomp.jpg');
 }
-.img_2-3{
+.square-6 {
     background-image:url('../../assets/img/inthefield/dailycal.jpg');
 }
 
-.img_3-1{
+.square-7{
     background-image:url('../../assets/img/inthefield/asuc.jpg');
     margin-left: 2.75%;
 
 }
-.img_3-2{
+.square-8 {
     background-image:url('../../assets/img/inthefield/kaiser.jpg');
 }
-.img_3-3{
+.square-9 {
     background-image:url('../../assets/img/inthefield/mvz.jpg');
 }
 
@@ -126,47 +124,7 @@ body {
 }
 
 
-.img_1-1:hover {
-    opacity: 0.7;
-    cursor: pointer;
-}
-
-.img_1-2:hover {
-    opacity: 0.7;
-    cursor: pointer;
-}
-
-.img_1-3:hover {
-    opacity: 0.7;
-    cursor: pointer;
-}
-
-.img_2-1:hover {
-    opacity: 0.7;
-    cursor: pointer;
-}
-
-.img_2-2:hover {
-    opacity: 0.7;
-    cursor: pointer;
-}
-
-.img_2-3:hover {
-    opacity: 0.7;
-    cursor: pointer;
-}
-
-.img_3-1:hover {
-    opacity: 0.7;
-    cursor: pointer;
-}
-
-.img_3-2:hover {
-    opacity: 0.7;
-    cursor: pointer;
-}
-
-.img_3-3:hover {
+.square:hover {
     opacity: 0.7;
     cursor: pointer;
 }

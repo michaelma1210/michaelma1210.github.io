@@ -5,7 +5,6 @@ body {
 
 /* <--------------- PARALLAX ------------------> */
 .parallax {
-    /*padding-top: 50px;*/
     width: 100%;
     background-image: url('../../assets/img/film/background.jpg');
     height: 500px;
@@ -40,13 +39,10 @@ body {
 
 /* <--------------- VIDEO ------------------> */
 .video {
-    /*margin-left: 18%;*/
     margin-top: 70px;
     margin-left: 100px;
     margin-bottom: 20px;
     width: 500px;
-
-
 }
 
 .video-title {
