@@ -40,13 +40,13 @@ body {
 .square {
     float:left;
     position: relative;
+    border-radius: 2%;
     width: 30%;
     padding-bottom: 30%;
     margin: 1%;
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center center;
-    border-radius: 2%;
 }
 
 .square-1 {
