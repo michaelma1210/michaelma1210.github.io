@@ -241,6 +241,8 @@ ul#tools-description {
 
 
 
+
+
 /* <--------------- VICTORIA BUTTON ------------------> */
 /* <---------------BUTTON CREDIT: http://codepen.io/sazzad/pen/yNNNJG ------------------> */
 
@@ -248,7 +250,7 @@ a.animated-button {
     width: 30%;
     float: left;
 }
-/* Global Button Styles */
+
 a.animated-button:link, a.animated-button:visited {
 
     position: relative;
