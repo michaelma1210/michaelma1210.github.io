@@ -1,8 +1,7 @@
-@import url('http://weloveiconfonts.com/api/?family=entypo');
 
 body {
   margin: 0;
-  background: #DFE0E2;
+  /*background: #DFE0E2;*/
 }
 
 a {
@@ -45,7 +44,7 @@ a {
 
 
 .description {
-  margin: 30px;
+  margin: 2% 10% 0% 10%;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 30px;
   color: #071013;
@@ -56,87 +55,312 @@ a {
 
 
 
+/* SOCIAL MEDIA ICONS */
 
+/*html {*/
+  /*box-sizing: border-box;*/
+/*}*/
 
+/**, *:before, *:after {*/
+  /*box-sizing: inherit;*/
+/*}*/
 
-/* <--------------- SOCIAL MEDIA ICONS ------------------> */
-/* <---------------CREDIT: http://codepen.io/oknoblich/pen/noewy ------------------> */
+/*html {*/
+  /*background: #0e1a25;*/
+  /*font-size: 0.625em;*/
+/*}*/
 
-.wrapper {
-  margin: 50px;
+.soc {
+  display: block;
+  font-size: 0;
+  list-style: none;
+  margin: 0;
+  padding: 48px;
+  padding: 4.8rem;
+  /*text-align: center;*/
 }
-
-.social {
+.soc li {
   display: inline-block;
-  width: 50px;
-  height: 50px;
-  margin: 0 15px;
-  line-height: 50px;
-  font-family: Entypo;
-  font-size: 28px;
+  margin: 12px;
+  margin: 1.2rem;
+}
+.soc a, .soc svg {
+  display: block;
+}
+.soc a {
+  position: relative;
+  height: 96px;
+  height: 9.6rem;
+  width: 96px;
+  width: 9.6rem;
+}
+.soc svg {
+  height: 100%;
+  width: 100%;
+}
+.soc em {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: -0.75em;
+  position: absolute;
   text-align: center;
-  color: #555;
-  border-radius: 10px;
-  background: #eee;
-  overflow: hidden;
-  cursor: pointer;
-  margin-bottom: 50px;
+  top: 50%;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
-.social {
-  box-shadow: rgb(210, 210, 210) 1px 1px,
-  rgb(210, 210, 210) 2px 2px,
-  rgb(211, 211, 211) 3px 3px,
-  rgb(211, 211, 211) 4px 4px,
-  rgb(211, 211, 211) 5px 5px,
-  rgb(212, 212, 212) 6px 6px,
-  rgb(212, 212, 212) 7px 7px,
-  rgb(212, 212, 212) 8px 8px,
-  rgb(213, 213, 213) 9px 9px,
-  rgb(213, 213, 213) 10px 10px,
-  rgb(214, 214, 214) 11px 11px,
-  rgb(214, 214, 214) 12px 12px,
-  rgb(214, 214, 214) 13px 13px,
-  rgb(215, 215, 215) 14px 14px,
-  rgb(215, 215, 215) 15px 15px,
-  rgb(215, 215, 215) 16px 16px,
-  rgb(216, 216, 216) 17px 17px,
-  rgb(216, 216, 216) 18px 18px,
-  rgb(216, 216, 216) 19px 19px,
-  rgb(217, 217, 217) 20px 20px,
-  rgb(217, 217, 217) 21px 21px,
-  rgb(218, 218, 218) 22px 22px,
-  rgb(218, 218, 218) 23px 23px,
-  rgb(218, 218, 218) 24px 24px,
-  rgb(219, 219, 219) 25px 25px,
-  rgb(219, 219, 219) 26px 26px,
-  rgb(219, 219, 219) 27px 27px,
-  rgb(220, 220, 220) 28px 28px,
-  rgb(220, 220, 220) 29px 29px,
-  rgb(221, 221, 221) 30px 30px;
-  text-shadow: rgb(226, 226, 226) 1px 1px,
-  rgb(227, 227, 227) 2px 2px,
-  rgb(227, 227, 227) 3px 3px,
-  rgb(228, 228, 228) 4px 4px,
-  rgb(229, 229, 229) 5px 5px,
-  rgb(229, 229, 229) 6px 6px,
-  rgb(230, 230, 230) 7px 7px,
-  rgb(230, 230, 230) 8px 8px,
-  rgb(231, 231, 231) 9px 9px,
-  rgb(232, 232, 232) 10px 10px,
-  rgb(232, 232, 232) 11px 11px,
-  rgb(233, 233, 233) 12px 12px,
-  rgb(233, 233, 233) 13px 13px,
-  rgb(234, 234, 234) 14px 14px,
-  rgb(235, 235, 235) 15px 15px,
-  rgb(235, 235, 235) 16px 16px,
-  rgb(236, 236, 236) 17px 17px,
-  rgb(236, 236, 236) 18px 18px,
-  rgb(237, 237, 237) 19px 19px,
-  rgb(238, 238, 238) 20px 20px;
+.icon-1:hover, .icon-2:hover, .icon-3:hover, .icon-4:hover, .icon-5:hover, .icon-6:hover, .icon-7:hover, .icon-8:hover, .icon-9:hover, .icon-10:hover, .icon-11:hover, .icon-12:hover, .icon-13:hover, .icon-14:hover, .icon-15:hover, .icon-16:hover, .icon-17:hover, .icon-18:hover, .icon-19:hover, .icon-20:hover, .icon-21:hover, .icon-22:hover, .icon-23:hover, .icon-24:hover, .icon-25:hover, .icon-26:hover, .icon-27:hover, .icon-28:hover, .icon-29:hover, .icon-30:hover {
+  border-radius: 100%;
+  color: #0e1a25;
+  fill: #0e1a25;
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+  -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+  cursor: pointer;
+
 }
 
-.social:hover {
-  opacity: .5;
-  cursor: pointer;
+.icon-1 {
+  color: #d94a26;
+  fill: #d94a26;
+}
+.icon-1:hover {
+  background: #d94a26;
+}
+
+.icon-2 {
+  color: #d96e26;
+  fill: #d96e26;
+}
+.icon-2:hover {
+  background: #d96e26;
+  mouse:
+}
+
+.icon-3 {
+  color: #d99126;
+  fill: #d99126;
+}
+.icon-3:hover {
+  background: #d99126;
+}
+
+.icon-4 {
+  color: #d9b526;
+  fill: #d9b526;
+}
+.icon-4:hover {
+  background: #d9b526;
+}
+
+.icon-5 {
+  color: #d9d926;
+  fill: #d9d926;
+}
+.icon-5:hover {
+  background: #d9d926;
+}
+
+.icon-6 {
+  color: #b5d926;
+  fill: #b5d926;
+}
+.icon-6:hover {
+  background: #b5d926;
+}
+
+.icon-7 {
+  color: #91d926;
+  fill: #91d926;
+}
+.icon-7:hover {
+  background: #91d926;
+}
+
+.icon-8 {
+  color: #6ed926;
+  fill: #6ed926;
+}
+.icon-8:hover {
+  background: #6ed926;
+}
+
+.icon-9 {
+  color: #4ad926;
+  fill: #4ad926;
+}
+.icon-9:hover {
+  background: #4ad926;
+}
+
+.icon-10 {
+  color: #26d926;
+  fill: #26d926;
+}
+.icon-10:hover {
+  background: #26d926;
+}
+
+.icon-11 {
+  color: #26d94a;
+  fill: #26d94a;
+}
+.icon-11:hover {
+  background: #26d94a;
+}
+
+.icon-12 {
+  color: #26d96e;
+  fill: #26d96e;
+}
+.icon-12:hover {
+  background: #26d96e;
+}
+
+.icon-13 {
+  color: #26d991;
+  fill: #26d991;
+}
+.icon-13:hover {
+  background: #26d991;
+}
+
+.icon-14 {
+  color: #26d9b5;
+  fill: #26d9b5;
+}
+.icon-14:hover {
+  background: #26d9b5;
+}
+
+.icon-15 {
+  color: #26d9d9;
+  fill: #26d9d9;
+}
+.icon-15:hover {
+  background: #26d9d9;
+}
+
+.icon-16 {
+  color: #26b5d9;
+  fill: #26b5d9;
+}
+.icon-16:hover {
+  background: #26b5d9;
+}
+
+.icon-17 {
+  color: #2691d9;
+  fill: #2691d9;
+}
+.icon-17:hover {
+  background: #2691d9;
+}
+
+.icon-18 {
+  color: #266ed9;
+  fill: #266ed9;
+}
+.icon-18:hover {
+  background: #266ed9;
+}
+
+.icon-19 {
+  color: #264ad9;
+  fill: #264ad9;
+}
+.icon-19:hover {
+  background: #264ad9;
+}
+
+.icon-20 {
+  color: #2626d9;
+  fill: #2626d9;
+}
+.icon-20:hover {
+  background: #2626d9;
+}
+
+.icon-21 {
+  color: #4a26d9;
+  fill: #4a26d9;
+}
+.icon-21:hover {
+  background: #4a26d9;
+}
+
+.icon-22 {
+  color: #6e26d9;
+  fill: #6e26d9;
+}
+.icon-22:hover {
+  background: #6e26d9;
+}
+
+.icon-23 {
+  color: #9126d9;
+  fill: #9126d9;
+}
+.icon-23:hover {
+  background: #9126d9;
+}
+
+.icon-24 {
+  color: #b526d9;
+  fill: #b526d9;
+}
+.icon-24:hover {
+  background: #b526d9;
+}
+
+.icon-25 {
+  color: #d926d9;
+  fill: #d926d9;
+}
+.icon-25:hover {
+  background: #d926d9;
+}
+
+.icon-26 {
+  color: #d926b5;
+  fill: #d926b5;
+}
+.icon-26:hover {
+  background: #d926b5;
+}
+
+.icon-27 {
+  color: #d92691;
+  fill: #d92691;
+}
+.icon-27:hover {
+  background: #d92691;
+}
+
+.icon-28 {
+  color: #d9266e;
+  fill: #d9266e;
+}
+.icon-28:hover {
+  background: #d9266e;
+}
+
+.icon-29 {
+  color: #d9264a;
+  fill: #d9264a;
+}
+.icon-29:hover {
+  background: #d9264a;
+}
+
+.icon-30 {
+  color: #d92626;
+  fill: #d92626;
+}
+.icon-30:hover {
+  background: #d92626;
 }
