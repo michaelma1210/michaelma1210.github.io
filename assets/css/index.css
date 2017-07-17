@@ -30,7 +30,7 @@ p {
 .caption {
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 30%;
     width: 100%;
     text-align: center;
     color: #000;
@@ -291,7 +291,7 @@ li.dropdown > a:after{
 /* <--------------- MISC ------------------> */
 
 #localwise {
-    color: lightseagreen;
+    color: #CD1309;
 }
 
 
