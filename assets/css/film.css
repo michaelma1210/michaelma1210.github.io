@@ -37,31 +37,31 @@ body {
 }
 
 
-/* <--------------- VIDEO ------------------> */
-.video {
-    margin-top: 70px;
-    margin-left: 100px;
-    margin-bottom: 20px;
-    width: 500px;
-}
+/*!* <--------------- VIDEO ------------------> *!*/
+/*.video {*/
+    /*margin-top: 70px;*/
+    /*margin-left: 100px;*/
+    /*margin-bottom: 20px;*/
+    /*width: 500px;*/
+/*}*/
 
-.video-title {
-    font-family: 'Josefin Sans', sans-serif;
-    color: #071013;
-    font-size: 30px;
-    margin-bottom: 10px;
-}
+/*.video-title {*/
+    /*font-family: 'Josefin Sans', sans-serif;*/
+    /*color: #071013;*/
+    /*font-size: 30px;*/
+    /*margin-bottom: 10px;*/
+/*}*/
 
-.video-date {
-    font-family: 'Josefin Sans', sans-serif;
-    color: #071013;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-.video-description {
-    font-family: 'Josefin Sans', sans-serif;
-    color: #071013;
-    font-size: 20px;
-    margin-bottom: 20px;
+/*.video-date {*/
+    /*font-family: 'Josefin Sans', sans-serif;*/
+    /*color: #071013;*/
+    /*font-size: 20px;*/
+    /*margin-bottom: 10px;*/
+/*}*/
+/*.video-description {*/
+    /*font-family: 'Josefin Sans', sans-serif;*/
+    /*color: #071013;*/
+    /*font-size: 20px;*/
+    /*margin-bottom: 20px;*/
 
-}
+/*}*/
