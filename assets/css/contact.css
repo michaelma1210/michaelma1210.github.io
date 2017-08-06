@@ -2,6 +2,7 @@
 body {
   margin: 0;
   /*background: #DFE0E2;*/
+  padding-bottom: 100px;
 }
 
 a {
@@ -13,7 +14,7 @@ a {
 /* <--------------- PARALLAX ------------------> */
 .parallax {
   width: 100%;
-  background-image: url('../../assets/img/contact/background.jpg');
+  background-image: url('../../assets/img/contact/background4.jpg');
   height: 500px;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -75,8 +76,9 @@ a {
   font-size: 0;
   list-style: none;
   margin: 0;
-  padding: 48px;
-  padding: 4.8rem;
+  /*padding: 48px;*/
+  /*padding: 4.8rem;*/
+  padding: 2% 10% 0% 10%;
   /*text-align: center;*/
 }
 .soc li {
@@ -138,7 +140,6 @@ a {
 }
 .icon-2:hover {
   background: #d96e26;
-  mouse:
 }
 
 .icon-3 {

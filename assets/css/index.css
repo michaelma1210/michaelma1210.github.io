@@ -19,7 +19,7 @@ p {
 /* <--------------- PARALLAX ------------------> */
 .parallax {
     width: 100%;
-    background-image: url('../../assets/img/home/background.jpg');
+    background-image: url('../../assets/img/home/background6.jpg');
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
@@ -176,7 +176,7 @@ li.dropdown > a:after{
 
 #bannerimage1 {
     position: relative;
-    background-image: url('../../assets/img/home/localwise.jpg');
+    background-image: url('../../assets/img/inthefield/wellsfargo.jpg');
 
     width: 100%;
     height: 300px;
@@ -192,7 +192,7 @@ li.dropdown > a:after{
 
 #bannerimage2 {
     position: relative;
-    background-image: url('../../assets/img/home/coding.jpg');
+    background-image: url('../../assets/img/home/localwise.jpg');
 
     width: 100%;
     height: 300px;
@@ -295,4 +295,12 @@ li.dropdown > a:after{
 }
 
 
+
+#load{
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:9999;
+    background: url('../../assets/img/bars.gif') no-repeat center center rgba(0,0,0,0.25)
+}
 
