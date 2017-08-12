@@ -6,7 +6,7 @@ body {
 /* <--------------- PARALLAX ------------------> */
 .parallax {
     width: 100%;
-    background-image: url('../../assets/img/film/background.jpg');
+    background-image: url('../../assets/img/film/filmcover.jpg');
     height: 500px;
     background-attachment: fixed;
     background-position: center;
